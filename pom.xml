@@ -20,11 +20,56 @@
   <dependencyManagement>
   	<dependencies>
   	
+  	<!-- spring 依赖开始 -->
   	<dependency>
 		<groupId>org.springframework</groupId>
 		<artifactId>spring-webmvc</artifactId>
 		<version>${org.springframework-version}</version>
 	</dependency>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-tx</artifactId>
+		<version>${org.springframework-version}</version>
+	</dependency>
+	<dependency>
+	<groupId>org.springframework</groupId>
+		<artifactId>spring-jdbc</artifactId>
+		<version>${org.springframework-version}</version>
+	</dependency>
+  	<!-- spring 依赖结束 -->
+  	
+  	<dependency>
+		<groupId>commons-dbcp</groupId>
+		<artifactId>commons-dbcp</artifactId>
+		<version>1.4</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>com.oracle</groupId>
+		<artifactId>ojdbc7</artifactId>
+		<version>12.1.0</version>
+	</dependency>
+	
+	<!-- AOP -->
+	<dependency>
+		<groupId>org.aspectj</groupId>
+		<artifactId>aspectjweaver</artifactId>
+		<version>1.8.8</version>
+	</dependency>
+  	
+  	<!-- mybatis依赖开始 -->
+  	<dependency>
+		<groupId>org.mybatis</groupId>
+		<artifactId>mybatis-spring</artifactId>
+		<version>1.2.4</version>
+	</dependency>
+  	
+  	<dependency>
+		<groupId>org.mybatis</groupId>
+		<artifactId>mybatis</artifactId>
+		<version>3.2.8</version>
+	</dependency>
+  	<!-- mybatis依赖结束 -->
   	
   	<!-- 日志依赖开始 -->
      <dependency>
