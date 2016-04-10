@@ -10,6 +10,7 @@
   <modules>
   	<module>../jvm</module>
   	<module>dataStruAndAlgo</module>
+  	<module>../data-structure-algorithm</module>
   	<module>spring4mvc</module>
   </modules>
   
